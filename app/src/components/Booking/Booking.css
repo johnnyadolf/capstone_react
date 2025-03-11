@@ -12,7 +12,7 @@
   .form-field {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: auto;
     cursor: pointer;
   }
   
@@ -32,8 +32,9 @@
   .confirmed-booking {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
-    min-height: 35rem;
-    padding: 2rem 0 2rem 0;
+    gap: auto;
+    padding: 1rem;
+    min-height: auto;
+    padding: auto;
     align-items: center;
   }

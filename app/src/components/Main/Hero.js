@@ -11,7 +11,7 @@ const Hero = () => {
             <p className='subtitle'>Chicago</p>
             <p className='desc'>We are a family owned Mediterranean restaurant, 
             focused on traditional recipes served with a modern twist.</p>
-            <Link to="/reservations" className='reserve_btn btn'>
+            <Link to="/reservations" className='btn'>
               Reserve a table
             </Link>
           </div>
