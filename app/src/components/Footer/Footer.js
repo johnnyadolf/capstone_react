@@ -16,9 +16,9 @@ const Footer = () => {
                 </div>
                 <div className="footer_contact">
                     <p className="footer_head">Contact</p>
-                    <a href="/" className="footer_link_item">Address: 123 Main St, Anytown, ASU</a>
-                    <a href="/" className="footer_link_item">Phone Number:0123 456 789</a>
-                    <a href="/" className="footer_link_item">Email: sample@example.com</a>
+                    <p className="footer_link_item">Address: 123 Main St, Anytown, ASU</p>
+                    <p className="footer_link_item">Phone Number:0123 456 789</p>
+                    <p className="footer_link_item">Email: sample@example.com</p>
                 </div>
                 <div className="footer_socials">
                     <p className="footer_head">Social Media</p>

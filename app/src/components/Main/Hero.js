@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import Menu from './Menu';
 
-const Main = () => {
+const Hero = () => {
   return (
     <>
       <div className='main_section'>
@@ -25,4 +25,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default Hero;
