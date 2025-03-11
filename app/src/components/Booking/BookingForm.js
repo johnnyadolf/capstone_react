@@ -126,7 +126,7 @@ const BookingForm = ({ availableTimes, dispatchOnDateChange, submitData }) => {
         </select>
       </FormField>
       <button
-        className="button-primary"
+        className="btn"
         type="submit"
         disabled={!areAllFieldsValid()}
       >
