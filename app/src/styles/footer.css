@@ -1,0 +1,41 @@
+/* Footer */
+footer {
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    background-color: #EDEFEE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4em;
+    padding-block: 1em;
+    width: 100vw;
+    height: 10%;
+}
+
+.footer_link_item {
+    color: #040404;
+    font-weight: 400;
+    text-decoration: inherit;
+    font-size: 18px;
+}
+
+.footer_content {
+    display: flex;
+    gap: 2em;
+}
+
+.footer_links,
+.footer_contact,
+.footer_socials {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_head {
+    font-weight: 600;
+    margin-bottom: 0.6em;
+}

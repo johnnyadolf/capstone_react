@@ -1,0 +1,40 @@
+.bookings h2 {
+    padding: 2rem 0 2rem 0;
+    background-color: #495E57;
+    color: #FFFFFF;
+    text-align: center;
+  }
+  
+  .bookings form {
+    margin: 0 auto 2rem auto;
+  }
+  
+  .form-field {
+    display: flex;
+    flex-direction: column;
+    gap: auto;
+    cursor: pointer;
+  }
+  
+  .form-field p {
+    font-size: 1rem;
+    color: red;
+  }
+  
+  .bookings button:disabled,
+  .bookings button[disabled] {
+    background-color: #EDEFEE;
+    border-color: #EDEFEE;
+    color: #ADAFAE;
+    cursor: not-allowed;
+  }
+  
+  .confirmed-booking {
+    display: flex;
+    flex-direction: column;
+    gap: auto;
+    padding: 1rem;
+    min-height: auto;
+    padding: auto;
+    align-items: center;
+  }
