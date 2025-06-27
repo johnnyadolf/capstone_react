@@ -1,8 +1,8 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import Booking from './components/Pages/bookingpage';
-import Confirmed from './components/Pages/confirmedpage';
-import Home from './components/Pages/mainpage';
+import Booking from './routes/bookingpage';
+import Confirmed from './routes/confirmedpage';
+import Home from './routes/mainpage';
 
 
 function App() {
